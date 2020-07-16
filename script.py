@@ -5,11 +5,19 @@ import os
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 
-CURRENT_PATH = r'C:\Users\u8645622\Desktop\one'
+CURRENT_PATH = os.path.realpath(__file__)
 
 URL = 'https://one.prat.idf.il/api/Attendance/InsertPersonalReport'
+PROGRAM_FILES_DIRECTORY = os.path.join('C:', 'ProgramFiles', 'OneReportFiller')
 DRIVER_PATH = os.path.join(CURRENT_PATH, 'chromedriver.exe')
 COOKIE_PATH = os.path.join(CURRENT_PATH, 'cookie.txt')
+
+def extract_files():
+    if(os.path.exists(PROGRAM_FILES_DIRECTORY) is False):
+        os.mkdir(PROGRAM_FILES_DIRECTORY)
+
+
+extract_files()
 
 def get_codes():
     res = requests.get('http://ruk9515.pythonanywhere.com/')

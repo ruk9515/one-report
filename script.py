@@ -32,7 +32,8 @@ def main():
     codes = get_codes()
     main_code = codes['MAIN_CODE']
     secondary_code = codes['SECONDARY_CODE']
-    data = f"------WebKitFormBoundaryBlITUYglfWe1bh0t\r\nContent-Disposition: form-data; name=\"MainCode\"\r\n\r\n{main_code}\r\n------WebKitFormBoundaryBlITUYglfWe1bh0t\r\nContent-Disposition: form-data; name=\"SecondaryCode\"\r\n\r\n{secondary_code}\r\n------WebKitFormBoundaryBlITUYglfWe1bh0t--\r\n"
+    note = '' # Note 
+    data = f"------WebKitFormBoundaryBlITUYglfWe1bh0t\r\nContent-Disposition: form-data; name=\"MainCode\"\r\n\r\n{main_code}\r\n------WebKitFormBoundaryBlITUYglfWe1bh0t\r\nContent-Disposition: form-data; name=\"SecondaryCode\"\r\n\r\n{secondary_code}\r\n------WebKitFormBoundaryBlITUYglfWe1bh0t--\r\nContent-Disposition: form-data; name=\"Note\"{note}------WebKitFormBoundaryOusvJ63bzvSAgVzX--"
     headers = {
         "accept": "application/json, text/plain, */*",
         "accept-language": "en-US,en;q=0.9",

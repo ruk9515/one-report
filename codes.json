@@ -1,0 +1,93 @@
+[
+    {
+    "MAIN_CODE": "01",
+    "SECONDARY_CODE": "01",
+    "TEXT": "אני בבסיס"
+    },
+    {
+    "MAIN_CODE": "02",
+    "SECONDARY_CODE": "05",
+    "TEXT": "מחוץ ליחידה",
+    "SECONDARY_TEXT": "בתפקיד מחוץ ליחידה"
+    },
+    {
+    "MAIN_CODE": "02",
+    "SECONDARY_CODE": "25",
+    "TEXT": "מחוץ ליחידה",
+    "SECONDARY_TEXT": "כוננות"
+    },
+    {
+    "MAIN_CODE": "02",
+    "SECONDARY_CODE": "09",
+    "TEXT": "מחוץ ליחידה",
+    "SECONDARY_TEXT": "אחרי תורנות או משמרת"
+    },
+    {
+    "MAIN_CODE": "02",
+    "SECONDARY_CODE": "03",
+    "TEXT": "מחוץ ליחידה",
+    "SECONDARY_TEXT": "עובד משמרות"
+    },    
+    {
+    "MAIN_CODE": "02",
+    "SECONDARY_CODE": "13",
+    "TEXT": "מחוץ ליחידה",
+    "SECONDARY_TEXT": "הפניה רפואית"
+    },
+    {
+    "MAIN_CODE": "02",
+    "SECONDARY_CODE": "16",
+    "TEXT": "מחוץ ליחידה",
+    "SECONDARY_TEXT": "משמרת ערב"
+    },
+    {
+    "MAIN_CODE": "02",
+    "SECONDARY_CODE": "02",
+    "TEXT": "מחוץ ליחידה",
+    "SECONDARY_TEXT": "אבט\"ש"
+    },
+
+    {
+    "MAIN_CODE": "02",
+    "SECONDARY_CODE": "20",
+    "TEXT": "מחוץ ליחידה",
+    "SECONDARY_TEXT": "סבב קו"
+    },   
+    {
+    "MAIN_CODE": "04",
+    "SECONDARY_CODE": "06",
+    "TEXT": "חופשה שנתית",
+    "SECONDARY_TEXT": "חג עדתי"
+    },
+
+    {
+    "MAIN_CODE": "04",
+    "SECONDARY_CODE": "04",
+    "TEXT": "חופשה שנתית",
+    "SECONDARY_TEXT": "חופשה שנתית"
+    },
+    {
+    "MAIN_CODE": "04",
+    "SECONDARY_CODE": "11",
+    "TEXT": "חופשה שנתית",
+    "SECONDARY_TEXT": "אזכרה - קרבה ראשונה"
+    },
+    {
+    "MAIN_CODE": "05",
+    "SECONDARY_CODE": "01",
+    "TEXT": "חופשת מחלה",
+    "SECONDARY_TEXT": "חופשת מחלה (גימלים)"
+    },
+    {
+    "MAIN_CODE": "05",
+    "SECONDARY_CODE": "08",
+    "TEXT": "חופשת מחלה",
+    "SECONDARY_TEXT": "יום ד"
+    },
+    {
+    "MAIN_CODE": "05",
+    "SECONDARY_CODE": "17",
+    "TEXT": "חופשת מחלה",
+    "SECONDARY_TEXT": "בידוד"
+    }
+]
